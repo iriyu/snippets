@@ -1,0 +1,72 @@
+{
+	// Place your snippets for cpp here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"include": {
+		"prefix": "cpp",
+		"body": [
+			"#include <iostream>",
+			"#include <cstdio>",
+			"#include <algorithm>",
+			"#include <cstdlib>",
+			"#include <string>",
+			"#include <vector>",
+			"",
+			"using namespace std;",
+			"",
+			"typedef long long ll;",
+			"typedef vector<int> vint;",
+			"typedef vector<vector<int> > vvint;",
+			"typedef vector<long long> vll, vLL;",
+			"typedef vector<long long> vll, vLL;",
+			"#define FOR(i,a,b) for(int i=(a);i<(b);++i)",
+			"#define REP(i,n) for(int i=0;i<n;++i)",
+			"#define mod (ll)(1e9+7)",
+			"#define ALL(obj) (obj).begin(), (obj).end()",
+			"#define INF 1000000000 //1e9",
+			"#define LLINF 2000000000000000000LL //2e18",
+			"",
+			"int main(){",
+			"\tcin.tie(0);",
+			"\tios::sync_with_stdio(false);",
+			"\t$0",
+			"",
+			"\treturn 0;",
+			"}"
+		],
+		"description": "initial"
+	},
+	"gcd": {
+		"prefix": "gcd",
+		"body": [
+			"int gcd( int a, int b ){",
+				"\tint r, tmp;",
+			
+				"\tif(a<b){",
+					"\t\ttmp = a;",
+					"\t\ta = b;",
+					"\t\tb = tmp;",
+				"\t}",
+				"\tr = a % b;",
+				"\twhile(r!=0){",
+					"\t\ta = b;",
+					"\t\tb = r;",
+					"\t\tr = a % b;",
+				"\t}",
+				"\treturn b;",
+			"}"
+		],
+		"description": "gcd function"
+	}
+
+}
