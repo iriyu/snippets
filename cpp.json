@@ -52,7 +52,7 @@
 	"gcd": {
 		"prefix": "gcd",
 		"body": [
-			"int gcd( int a, int b ){",
+			"int gcd(int a, int b ){",
 				"\tint r, tmp;",
 			
 				"\tif(a<b){",
@@ -70,6 +70,48 @@
 			"}"
 		],
 		"description": "gcd function"
+	},
+	"gcdll": {
+		"prefix": "gcdll",
+		"body": [
+			"ll gcdll(ll a, ll b ){",
+				"\tll r, tmp;",
+			
+				"\tif(a<b){",
+					"\t\ttmp = a;",
+					"\t\ta = b;",
+					"\t\tb = tmp;",
+				"\t}",
+				"\tr = a % b;",
+				"\twhile(r!=0){",
+					"\t\ta = b;",
+					"\t\tb = r;",
+					"\t\tr = a % b;",
+				"\t}",
+				"\treturn b;",
+			"}"
+		],
+		"description": "long long gcd function"
+	},
+	"lcm": {
+		"prefix": "lcm",
+		"body": [
+			"int lcm(int a, int b ){",
+				"\tif(a==0||b==0) return 0;",
+				"\treturn ((a/gcd(a,b))*b);",
+			"}"
+		],
+		"description": "lcm function"
+	},
+	"lcmll": {
+		"prefix": "lcmll",
+		"body": [
+			"ll lcmll(ll a, ll b ){",
+				"\tif(a==0||b==0) return 0;",
+				"\treturn ((a/gcdll(a,b))*b);",
+			"}"
+		],
+		"description": "lcm function"
 	}
 
 }
