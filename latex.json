@@ -11,6 +11,7 @@
 			"\\usepackage{ascmac}",
 			"\\usepackage{makeidx}",
 			"\\usepackage{bmpsize}",
+			"\\usepackage{here}",
 			"%",
 			"%\\makeindex",
 			"%",
@@ -39,5 +40,14 @@
 			"\\end{document}"
 		],
 		"description": "initial"
+	},
+	"figure": {
+		"prefix": "figure",
+		"body": [
+			"\\begin{figure}",
+			"\t\\includegraphics[width=10cm]{$0.png}",
+			"\\end{figure}"
+		],
+		"description": "figure"
 	}
 }
