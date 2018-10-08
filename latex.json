@@ -44,7 +44,7 @@
 	"figure": {
 		"prefix": "figure",
 		"body": [
-			"\\begin{figure}",
+			"\\begin{figure}[H]",
 			"\t\\includegraphics[width=10cm]{$0.png}",
 			"\\end{figure}"
 		],
