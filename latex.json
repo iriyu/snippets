@@ -41,13 +41,31 @@
 		],
 		"description": "initial"
 	},
-	"figure": {
-		"prefix": "figure",
+	"fig": {
+		"prefix": "fig",
 		"body": [
 			"\\begin{figure}[H]",
 			"\t\\includegraphics[width=10cm]{$0.png}",
 			"\\end{figure}"
 		],
-		"description": "figure"
+		"description": "fig"
+	},
+	"fig2": {
+		"prefix": "fig2",
+		"body": [
+			"\\begin{figure}[H]",
+			"\t\\begin{minipage}{0.5\\hsize}",
+            "\t\t\\begin{center}",
+            "\t\t\t\\includegraphics[width=6cm]{$0.png}",
+            "\t\t\\end{center}",
+        	"\t\\end{minipage}",
+        	"\t\\begin{minipage}{0.5\\hsize}",
+            "\t\t\\begin{center}",
+            "\t\t\t\\includegraphics[width=6cm]{$1.png}",
+            "\t\t\\end{center}",
+        	"\t\\end{minipage}",
+			"\\end{figure}"
+		],
+		"description": "fig2"
 	}
 }
