@@ -12,6 +12,8 @@
 			"\\usepackage{makeidx}",
 			"\\usepackage{bmpsize}",
 			"\\usepackage{here}",
+			"\\usepackage{url}",
+			"\\newcommand{\\qeq}{\\overset{\\mathrm{?}}{=}}",
 			"%",
 			"%\\makeindex",
 			"%",
