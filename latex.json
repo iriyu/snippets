@@ -19,6 +19,7 @@
 			"%",
 			"\\newtheorem{theorem}{定理}",
 			"\\newtheorem{lemma}{補題}",
+			"\\newtheorem{proof}{証明}",
 			"%",
 			"\\newcommand{\\diff}{\\mathrm{d}}",
 			"\\newcommand{\\divergence}{\\mathrm{div}\\,}",
