@@ -35,7 +35,7 @@
 			"#define mod (ll)(1e9+7)",
 			"#define FIX(a) ((a)%mod+mod)%mod",
 			"#define ALL(obj) (obj).begin(), (obj).end()",
-			"define rALL(obj) (obj).rbegin(), (obj).rend()",
+			"#define rALL(obj) (obj).rbegin(), (obj).rend()",
 			"#define INF 1000000000 //1e9",
 			"#define LLINF 2000000000000000000LL //2e18",
 			"#define fi first",
