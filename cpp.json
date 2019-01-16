@@ -15,6 +15,7 @@
 	"include": {
 		"prefix": "cpp",
 		"body": [
+			"//#include <bits/stdc++.h>",
 			"#include <iostream>",
 			"#include <cstdio>",
 			"#include <algorithm>",
@@ -41,6 +42,8 @@
 			"#define fi first",
 			"#define se second",
 			"#define pb push_back",
+			"int dy[]={0, 0, 1, -1};",
+			"int dx[]={1, -1, 0, 0};",
 			"",
 			"int main(){",
 			"\tcin.tie(0);",
