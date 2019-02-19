@@ -130,7 +130,7 @@
 		  "        id = vector<int>(n);",
 		  "        groups = vector<vector<int> >(n);",
 		  "        gn = n;",
-		  "        for(int i=0;i<n:++i){",
+		  "        for(int i=0;i<n;++i){",
 		  "            id[i]=i;",
 		  "            groups[i]={i};",
 		  "        }",
