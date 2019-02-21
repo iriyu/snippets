@@ -5,7 +5,7 @@
 			"\\documentclass[a4j,12pt,oneside,openany]{jsreport}",
 			"%\\documentclass[a4j,12pt,oneside,openany]{jsbook}",
 			"%",
-			"\\usepackage{amsmath,amssymb,amsthm}",
+			"\\usepackage{amsmath,amssymb,amsthm,amsthm}",
 			"\\usepackage{bm}",
 			"\\usepackage[dvipdfmx]{graphicx}",
 			"\\usepackage{ascmac}",
