@@ -153,6 +153,22 @@
 		  "};"
 		],
 		"description": "UnionFind"
+	  },
+	  "binarysearch": {
+		"prefix": "binarysearch",
+		"body": [
+		  "ll ok = $1;",
+		  "ll ng = -1;",
+		  "while(abs(ok-ng)>1){",
+		  "    ll mid = (ok+ng)/2;",
+		  "    if(enough(mid)){",
+		  "        ok = mid;",
+		  "    }else{",
+		  "        ng = mid;",
+		  "    }",
+		  "}"
+		],
+		"description": "binarysearch"
 	  }
 
 }
