@@ -4,6 +4,7 @@
 		"body": [
 			"\\documentclass[a4j,12pt,oneside,openany]{jsreport}",
 			"%\\documentclass[a4j,12pt,oneside,openany]{jsbook}",
+			"%\\documentclass[a4j,12pt]{jsarticle}",
 			"%",
 			"\\usepackage{amsmath,amssymb,amsthm,amsthm}",
 			"\\usepackage{bm}",
@@ -32,7 +33,11 @@
 			"\\newcommand{\\mrT}{\\mathrm{T}}",
 			"\\newcommand{\\mcA}{\\mathcal{A}}",
 			"\\newcommand{\\mcB}{\\mathcal{B}}",
-			"%",
+			"\\newcommand{\\mcV}{\\mathcal{V}}",
+			"\\newcommand{\\mcE}{\\mathcal{E}}",
+			"\\newcommand{\\mcG}{\\mathcal{G}}",
+			"\\newcommand{\\mcX}{\\mathcal{X}}",
+			"\\newcommand{\\mcN}{\\mathcal{N}}"
 			"\\setlength{\\textwidth}{\\fullwidth}",
 			"\\setlength{\\textheight}{38\\baselineskip}",
 			"\\addtolength{\\textheight}{\\topskip}",
