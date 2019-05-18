@@ -170,6 +170,23 @@
 		  "}"
 		],
 		"description": "binarysearch"
+	  },
+	  "combination": {
+		"prefix": "combination",
+		"body": [
+		  "int nmax = $0;",
+		  "vvll combi(namx+1,vll(nmax+1,0));",
+		  "void combination(){",
+		  "    for(int i=1;i<=nmax;i++){",
+		  "        combi[i][0]=1LL;",
+		  "        for(int j=1;j<=i-1;j++){",
+		  "            combi[i][j]=combi[i-1][j]+combi[i-1][j-1];",
+		  "        }",
+		  "        combi[i][i]=1LL;",
+		  "    }",
+		  "}"
+		],
+		"description": "combination"
 	  }
 
 }
