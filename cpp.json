@@ -187,6 +187,22 @@
 		  "}"
 		],
 		"description": "combination"
+	  },
+	  "pow": {
+		"prefix": "pow",
+		"body": [
+		  "ll pow(ll x, ll ntimes) {",
+		  "\tll ret = 1;",
+		  "\twhile (ntimes > 0) {",
+		  "\t\tif ((ntimes & 1) == 1) {",
+		  "\t\t\tret = ret * x;",
+		  "\t\t}",
+		  "\t\tx = x * x;",
+		  "\t\tntimes >>= 1;",
+		  "\t}",
+		  "\treturn ret;",
+		  "}"
+		],
+		"description": "pow"
 	  }
-
 }
