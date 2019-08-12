@@ -174,10 +174,10 @@
 	  "combination": {
 		"prefix": "combination",
 		"body": [
-		  "int nmax = $0;",
-		  "vvll combi(namx+1,vll(nmax+1,0));",
+		  "int combimax = $0;",
+		  "vvll combi(combimax+1,vll(combimax+1,0));",
 		  "void combination(){",
-		  "    for(int i=1;i<=nmax;i++){",
+		  "    for(int i=1;i<=combimax;i++){",
 		  "        combi[i][0]=1LL;",
 		  "        for(int j=1;j<=i-1;j++){",
 		  "            combi[i][j]=combi[i-1][j]+combi[i-1][j-1];",
